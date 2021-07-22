@@ -1,2 +1,3 @@
-# ahi-pod-ios-cocoapods-dev
+# AHI iOS CocoaPods
+
 CocoaPods private specs listing for development builds
