@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
     :sha256 => "79b026696fdf94bb19637c94d53b848fad8f726ff3725ba38c0be6dc6c2bb9be"
   }
 
-  spec.vendored_frameworks = ['AHIFaceScan.xcframework', 'AnuraCore.xcframework', 'libdfx2.xcframework']
+  spec.vendored_frameworks = ['*.xcframework']
 
   spec.frameworks = [
     "Foundation",
