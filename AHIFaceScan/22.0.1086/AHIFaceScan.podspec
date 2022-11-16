@@ -36,4 +36,5 @@ Pod::Spec.new do |spec|
   ]
 
   spec.dependency 'AHICommon', '~> 22.0.0'
+  spec.dependency 'OpenCV', '~> 4.3.0'
 end
