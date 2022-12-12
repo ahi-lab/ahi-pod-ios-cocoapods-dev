@@ -34,5 +34,5 @@ Pod::Spec.new do |spec|
     "Foundation"
   ]
 
-  spec.dependency 'AHICommon', '~> 22.0.0'
+  spec.dependency 'AHICommon', '~> 22.1.0'
 end
