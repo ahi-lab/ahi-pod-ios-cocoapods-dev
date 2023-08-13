@@ -31,7 +31,8 @@ Pod::Spec.new do |spec|
   spec.resources = ['*.bundle']
 
   spec.frameworks = [
-    "Foundation"
+    "Foundation",
+    "CorePlot"
   ]
 
   spec.dependency 'AHICommon', "~> 22.1.0"
