@@ -32,7 +32,8 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = [
     "Foundation",
-    "CorePlot"
+    "CorePlot",
+    "UIKit"
   ]
 
   spec.dependency 'AHICommon', "~> 22.1.0"
