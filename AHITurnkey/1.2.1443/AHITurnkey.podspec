@@ -1,0 +1,47 @@
+#
+#  AHI
+#
+#  Copyright (c) Advanced Health Intelligence. All rights reserved.
+#
+
+Pod::Spec.new do |spec|
+  spec.name         = 'AHITurnkey'
+  spec.version      = "1.2.1443"
+  spec.summary      = 'Turnkey allows for rapid adoption of AHI technologies.'
+
+  spec.description  = <<-DESC
+  Turnkey is an opinionated user experience, that allows for rapid integration of AHI technologies. Such features include:
+    - Health Risk Assessment.
+    - Physiological measurements using scan technologies (Face, Body, and Finger).
+    - Wellbeing Assessment.
+                      DESC
+
+  spec.homepage     = 'https://ref.ahi.zone/ios/AHITurnkey/index.html'
+  spec.license      = { :type => 'proprietary', :text =>  <<-LICENSE
+  https://ref.ahi.zone/LICENSE.md
+                                                          LICENSE
+}
+  spec.author       = { 'Advanced Health Intelligence' => 'dev@ahi.tech' }
+
+  spec.ios.deployment_target = '13.4'
+  spec.static_framework = true
+
+  spec.source       = { 
+    :http => "https://sdkdev.ahi.zone/dart/AHITurnkey/1.2/AHITurnkey.all.1.2.1443.zip?Expires=1709164800&Signature=In2LfyaS2buvJMlM7-y565thEQkoJvlPqxaheefjcYWoB680h7X6NHDWCtGPdN-hDSSxWjN-ulbVjlJdyw5267q2gbbyeI3JxNAYuhEkwJQXSaEwUkkyfVCghktsSVxQ-iQoBw3hIPuEbunqxuRHcIVCw9FchWhjdcC0KmEQsoBrSi201X4uRT0cUAnyL6WkfO7ne8LAUBH32ckx9tO8ky~UShtkgl6AOEZgppnz~4q6pr3Y792DdvxvNf-SiYbGwD9s~aItSk6JP9yzO~dx8SsjZkNiFftEstKOIdHa8IKSY5BTqeTEhw1j5IJP9gvZno5cJSeJ~l-vMDWyJV~Z-Q__&Key-Pair-Id=K2R8TGQY4LWEW1",
+    :sha256 => "da497c793907454bcf118025d374030e9e4d5f85cc304473d5311bff0a40a78e"
+  }
+  
+  # spec.source_files = 'framework/*.{h,m}'
+  spec.vendored_frameworks = ['framework/*.xcframework','framework/Release/*.xcframework']
+  # spec.resources = ['*.bundle']
+
+  spec.frameworks = [
+    "Foundation",
+    "AVFoundation"
+  ]
+
+  spec.dependency 'AHIMultiScan', "~> 22.0.0"
+  spec.dependency 'AHIFaceScan', "~> 22.0.0"
+  spec.dependency 'AHIBodyScan', "~> 22.0.0"
+  spec.dependency 'AHIFingerScan', "~> 22.0.0"
+end
