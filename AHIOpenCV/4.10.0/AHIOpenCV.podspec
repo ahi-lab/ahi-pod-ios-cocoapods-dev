@@ -54,13 +54,12 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '13.4'
 
-  # TODO: Update this URL after uploading to GitHub releases
   spec.source       = {
-    :http => "https://github.com/ahi-dev/OpenCV-SPM/releases/download/4.10.0/opencv2.xcframework.zip",
-    :sha256 => "57a0ffb059938df45d484654c115bdaa6091485c69f1be0bab13c0b38c25d800"
+    :http => "https://github.com/ahi-dev/OpenCV-SPM/releases/download/4.10.0/opencv2.framework.zip",
+    :sha256 => "8662a8c3a87d113a5588c24adbb96c55641adbeeb3064f92443e15fa7bac423a"
   }
   
-  spec.vendored_frameworks = 'opencv2.xcframework'
+  spec.vendored_frameworks = 'opencv2.framework'
 
   spec.frameworks = [
     "Foundation",
