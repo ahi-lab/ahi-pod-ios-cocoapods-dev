@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :http => "https://github.com/ahi-dev/OpenCV-SPM/releases/download/4.10.0/opencv2.framework.zip",
-    :sha256 => "ead68572450d4822d883c5b0cfd4cb76f73a2c5a5c4118be7fc151d8fd071eef"
+    :sha256 => "57c062bef56fde2f4f6c34795fdaf0b35ef9cc02d28c14ff46df28c555ee2adb"
   }
   
   spec.vendored_frameworks = 'opencv2.framework'
