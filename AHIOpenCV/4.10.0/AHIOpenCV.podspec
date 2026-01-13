@@ -80,4 +80,8 @@ Pod::Spec.new do |spec|
     'CLANG_CXX_LIBRARY' => 'libc++',
     'OTHER_LDFLAGS' => '-all_load'
   }
+  
+  spec.user_target_xcconfig = {
+    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/AHIOpenCV/opencv2.framework/Headers'
+  }
 end
