@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.4'
   
   s.source = { 
-    :http => "https://github.com/ahi-lab/ahi-sdk-common-ios/releases/download/v23.11.1292/AHICommon.xcframework.23.11.1292.zip",
+    :http => "https://github.com/admin-ahi/ahi-sdk-releases/releases/download/v23.11.1292/AHICommon.xcframework.23.11.1292.zip",
     :sha256 => "e3553c71948e95af5239a19aa391c9a13c3a9cc9030893d1a83eac63a2c383cd"
   }
   
