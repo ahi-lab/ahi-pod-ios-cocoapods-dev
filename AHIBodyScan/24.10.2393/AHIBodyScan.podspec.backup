@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '13.4'
 
   spec.source       = { 
-    :http => "https://sdkdev.ahi.zone/ios/AHIBodyScan/24.10/AHIBodyScan.xcframework.24.10.2393.zip?Expires=1801919159&Signature=YPqSl6mbb3xAwhBACiJKgxj46rVRLC7gWA-5wNGQLntKADk7uxIMSOZnhXySyPUZ41Zacfwc6LxpeXNK5HdBAn6mFDe1IFVPwKmmdMhOF2~kytXXosiMu~epY25PAq7ol~S5RIzZ6d5SIDpU2OMPFpFzjhqAT1HPSmyk0v61~CmeMdauO~3E8nWQ7G9Il447MyE5D1ZLBe~oO-DWzLuDzYrjREacnjGTzGiNCCoxai~3uhwA~G0YhDa0uBWmcRO3tSBLdG0Y8wA5FOKyxZHX3rQXgBoU6lhScBKfvXaYIQcBzr2BI7Jn5O~lkm1JhVE5mDxBY9ooM4fpgkKxpJfOfA__&Key-Pair-Id=K15Y8U0MFGN4KY",
+    :http => "https://sdkdev.ahi.zone/ios/AHIBodyScan/24.10/AHIBodyScan.xcframework.24.10.2393.zip?Expires=1746662400&Signature=NToatwMjWK8T4gpJLzHfT6bFOCMfZTq0MiZcYeYOdhwWSOCYSmzc-oS2WD~-XszS42mMJvqTi3ds8kF1bevvtiiQGpAg1oXkSTHSr07ZuamrTSbgqU2BIvJtlNFhWROt-6iCxPhrSzNl6kSDPw6FmwImMnq2jZSE~Bs1rGhSYR~acV5SYPuwUbQtCGn5pfPROm26LcXXlFQKZ98ngkAPqmsULczbrSbV-w5lUMu-q4Ur~nxDrVvrn0e0SpKpwDhHEU2jEimdXMcX7H2xoj0TDfR4VJnyLuDEEhVMaNYlo~I-~NP~VovXIIqwA~Rieskqsq5ZbYkyn~rv9FXYqiNZog__&Key-Pair-Id=K2R8TGQY4LWEW1",
     :sha256 => "a891c9ea74116583cd54e9d88fad276245781aa38bf289e7abc1512a0335791e"
   }
   
