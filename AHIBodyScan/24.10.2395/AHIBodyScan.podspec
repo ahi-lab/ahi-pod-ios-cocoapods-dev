@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :http => "https://sdkdev.ahi.zone/ios/AHIBodyScan/24.10/AHIBodyScan.xcframework.24.10.2395.zip?Expires=1786976765&Signature=zPG7k7GR~3ZXO1l2k-zs6LRDhKVYmRG3ElMIyuMYVz-LZ3Dm3GSATyzcjnzagMxuF5soDwnPNa52pq0WeaFUD-HiCZekWHJigxBAxvl1JTKsyRd8xENjMykVXTWsJAjwANUsyKGjomT6Ne32ur7tgBOQbo0tlk9hngT8bZjHgSDxr069mmof5RIwGWwxW7CBZJF8IbeFS9JAz1Jy1vGx~0hM3QGFMSz7ulHDZNPG0TgbNgG90TbIjZIPYroIEQ4uyX~3nZCYLCUBiswHbUQ2JsdpMBvJM3aSK2ClZnFrzCXbCNDVy4fCYOzuUr~aeCXKOpUTeAqiv2ukcdgYgp597w__&Key-Pair-Id=K3EMOTYRSGDLG1",
-    :sha256 => "0cc1c4bd16263d63874d583706c4a1c46774d7e61e39200c2a483d651592ac3d"
+    :sha256 => "f830f20dcc7764d471218c2222387dc11d68cfc9c53e4679867f42bb221dd916"
   }
 
   spec.vendored_frameworks = 'AHIBodyScan.xcframework'
