@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :http => "https://ahi-dev-sdk-builds.s3.amazonaws.com/ios/AHIBodyScan/24.10/AHIBodyScan.xcframework.24.10.2421.zip",
-    :sha256 => "de4e3e4c6d3ae65d121c55cf965252d63e0a2b6b7cffa8542eb117aa1781d9dc"
+    :sha256 => "74d190ce05b105161385674dae4a885f8e6ceba1494cf59434fe9538eaa921ad"
   }
 
   spec.vendored_frameworks = 'AHIBodyScan.xcframework'
